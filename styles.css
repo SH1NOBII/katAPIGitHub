@@ -1,0 +1,37 @@
+body {
+    background-color:rgb(126, 177, 221)
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+ }
+
+.search-bar {
+    height: 50px;
+    width: 500px;
+    font-size: 30px;
+    border-radius: 20px;
+ }
+ 
+ .autocompleteElement {
+    height: 30px;
+    width: 500px;
+    font-size: 20px;
+    border: 1px solid #000000;
+    background-color: #e3e3e3a1;
+    list-style-type: none;
+    position: relative;
+ }
+
+ .autocompleteElement:hover {
+    background-color: aqua;
+ }
+
+ .repoCard {
+   background-image: linear-gradient(to right, #80dd49, #59b9d1);
+   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+   width: fit-content;
+   padding: 10px;
+   margin: 10px;
+ }
